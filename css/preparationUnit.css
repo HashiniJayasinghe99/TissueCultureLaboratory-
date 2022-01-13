@@ -1,0 +1,198 @@
+﻿body {
+}
+
+a.footerlinks {
+    color: white;
+    text-decoration: none !important;
+}
+
+    a.footerlinks:hover {
+        color: white;
+    }
+#footer1 {
+    background: #228B22;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    height: auto;
+}
+
+#footer2 {
+    background: #008000;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: auto;
+}
+
+/*preparation unit*/
+.prepUB {
+    margin-bottom: 10%;
+    object-fit: fill;
+    position: center;
+    background-color:yellow;
+}
+
+td.prepUtd11 {
+    width: 20%;
+    margin-right: 50px;
+    
+}
+div.prepUdiv11 {
+   
+    border:solid;
+    border-color: black;
+    border-width: 15px;
+    align-content:center;
+
+    width:65%;
+    height:2%;
+}
+
+td.prepUtd12 {
+    width: 60%;
+    padding-block-start:5%;
+    
+    
+}
+
+td.prepUtd13{
+    width:30%;
+    align-content:center;
+}
+
+table.prepUtab1 {
+    width: 90%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height:600px;
+   
+}
+div.vl {
+    border-left: 3px double;
+    height:600px;
+    color:black;
+    padding-block-start:20px;
+    position:center;
+}
+div.prepUAs {
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color:grey;
+    color:black;
+    border-radius:10px;
+    height:500px;
+}
+formview.prepUf1{
+    margin-right:10px;
+}
+a.prepUhome {
+    margin-left: 80%;
+    color:black;
+    text-decoration: underline;
+    cursor: auto;
+}
+    a.prepUhome.hover {
+        color: black;
+        background-color: black;
+    }
+a.prepUhlp {
+    margin-left: 81%;
+    color: black;
+    text-decoration: underline;
+    cursor: auto;
+}
+a.prepUhlp.hover {
+    color: black;
+    background-color: black;
+}
+a.prepUemail {
+    margin-left: 82%;
+    color:black;
+    text-decoration: underline;
+    cursor: auto;
+}
+    a.preUpemail.hover {
+        
+        color: black;
+        background-color: black;
+    }
+
+section.prepUsect{
+    background-color:green;
+    height:30px;
+    opacity:60%;
+    
+}
+div.prepUdiv12 {
+    background-color: #8FBC8F;
+
+    height:auto;
+}
+input.btn-dark{
+    background-color:darkorange;
+    border-radius:5px;
+    color:black
+}
+input.btn-dark:hover{
+    background-color:blue;
+}
+
+h2{
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+h2.preptest {
+    animation-timing-function: linear;
+}
+
+h2.preptest1{
+    animation-timing-function: ease;
+}
+
+h2.preptest2{
+    animation-timing-function: ease-in;
+}
+
+h2.preptest3{
+    animation-timing-function: ease-out;
+}
+
+h2.preptest4{
+    animation-timing-function: ease-in-out;
+}
+
+/*preparation unit menu*/
+div.prepmendiv1 {
+    background-image: url('../Image/prepbck1.jpg');
+    margin-top:0%;
+}
+
+table.prepmentab1 {
+    background-color: rgb(217, 217, 217));
+    
+    width: 90%;
+    margin-right: 90px;
+    margin-left: 100px;
+    padding-bottom: 5px;
+    margin-bottom: 100px;
+}
+tr.prepmentr1 {
+    border-width: 2px;
+    border-color: black;
+    border-radius:5px;
+
+
+}
+
+td.prepmentd1 {
+    width: 40%;
+    border-width: 1px;
+    border-color: black;
+}
+/*prepration form */
+
+
+
+

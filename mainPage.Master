@@ -1,0 +1,202 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mainPage.master.cs" Inherits="Tissue_Culture_Lab_System.mainPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+    
+    <%--bootstrap--%>
+    <link href="Boostrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="Boostrap/js/bootstrap.bundle.min.js"></script>
+    <script src="Boostrap/js/popper.min.js"></script>
+    <script src="Boostrap/js/bootstrap.min.js"></script>
+    <%--datatable ccs--%>
+    <link href="Datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <%--fontawesom ccs--%>
+    <link href="Datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <%--css--%>
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+    <link href="css/preparationUnit.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <style type="text/css">
+        .heder4 {
+            font-size: large;
+        }
+        .heder3 {
+            font-size: x-large;
+        }
+        .header2 {
+            left: 0px;
+            top: 0px;
+            width:25px;
+            height:10px:
+        }
+        .header1 {
+            width: 100%;
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            margin-right: auto;
+            margin-left: auto;
+            height: 110px;
+       
+    }
+
+          .font1 {
+            font-size: large;
+        }
+        .font2 {
+            font-size: x-large;
+        }
+        
+      
+        .span1 {
+            width: 100%;
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            margin-right: auto;
+            margin-left: auto;
+            height: 185px;
+        }
+        .img2 {
+            width: 100%;
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            margin-right: auto;
+            margin-left: auto;
+            height: 155px;
+        }
+        .divv3 {
+            width: 100%;
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            margin-right: auto;
+            margin-left: auto;
+            height: 0.8%px;
+        }
+        
+      
+        .divv4 {
+            width: 110%;
+            height: 85px;
+        }
+        .divv5 {
+            width: 100%;
+            padding-right: var(--bs-gutter-x,.75rem);
+            padding-left: var(--bs-gutter-x,.75rem);
+            margin-right: auto;
+            margin-left: auto;
+            height: 58px;
+            left: 0;
+            bottom: -10px;
+        }
+        
+      
+      
+      
+    </style>
+
+</head>
+
+   <body>
+    <form id="form1" runat="server">
+
+        <div class="divv3">
+            <nav class ="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    
+                    <img src="../Image/LOGO.png" width="60px" height="60px" /> <span class="img2"><strong>Serendib Horticulture Laboratary</strong></span><span class="span1"> </span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div class="collapse navbar-collapse" id="navbarSupportedContent" style="width:80%;height:30px; background-color:darkgrey;" >
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    
+                    <ul class="navbar-nav nav justify-content-end">
+                       
+                        
+                        <li class="nav-item active">
+                            <asp:LinkButton class="nav-link" ID="LinkButton1" runat="server">   
+                                User Login</asp:LinkButton>
+                        </li>
+                        <li class="nav-item active">
+                            <asp:LinkButton class="nav-link" ID="LinkButton2" runat="server">Sign Up</asp:LinkButton>
+                        </li>
+                        <li class="nav-item active">
+                            <asp:LinkButton class="nav-link" ID="LinkButton3" runat="server">Logout</asp:LinkButton>
+                        </li>
+
+                        <li class="nav-item active">
+                            <asp:LinkButton class="nav-link" ID="LinkButton7" runat="server">Hello user</asp:LinkButton>
+
+                        </li>
+                    </ul>
+                </div>
+                    </div>
+
+                
+
+                </nav>
+            </div>
+        
+        <div >
+            
+            <asp:ContentPlaceHolder ID="PrepUContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+             <asp:ContentPlaceHolder ID="PrepUContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="PrepUContentPlaceHolder3" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="PrepUContentPlaceHolder4" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="PrepUContentPlaceHolder5" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="PrepUContentPlaceHolder6" runat="server">
+            </asp:ContentPlaceHolder>
+            
+        </div>
+
+        
+        <!-- Footer -->
+        <footer>
+            <div id="footer1" class="container-fluid" style="width:100%;">
+                <div class="row" >
+                    <div class="col-xs-12 col-sm-12 col-md-12 text-center" >
+                        <p style="font-size:small;">
+                          
+                           
+                            <asp:LinkButton class="footerlinks" ID="LinkButton9" runat="server">Production Management</asp:LinkButton>
+                            &nbsp;
+                             <asp:LinkButton class="footerlinks" ID="LinkButton10" runat="server" href="https://localhost:44378/content%20folder/PrepUmenu1.aspx">Media Preperation Unit</asp:LinkButton>
+                            &nbsp;
+                            <asp:LinkButton class="footerlinks" ID="LinkButton5" runat="server">Growth Room</asp:LinkButton>
+                            &nbsp;
+                            <asp:LinkButton class="footerlinks" ID="LinkButton13" runat="server">Delivery Management</asp:LinkButton>
+                            &nbsp;
+                             <asp:LinkButton class="footerlinks" ID="LinkButton14" runat="server">Inventory Management</asp:LinkButton>
+
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+            <div id="footer2" class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                        <p style="color:whitesmoke; font-size:small;">&copy All right Reserved -   <a class="footerlinks" href="#" target="_blank"> Serendib Horticulture Technology (Pvt)Ltd  </a></p>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+    </form>
+    
+</body>
+</html>
